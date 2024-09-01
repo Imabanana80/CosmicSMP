@@ -1,0 +1,7 @@
+name: CosmicSMP
+version: '1.0-SNAPSHOT'
+main: com.imabanana80.cosmicSMP.CosmicSMP
+api-version: '1.21'
+authors: [ Imabanana80 ]
+description: ooga booga cool powers
+website: https://imabanana80.com
