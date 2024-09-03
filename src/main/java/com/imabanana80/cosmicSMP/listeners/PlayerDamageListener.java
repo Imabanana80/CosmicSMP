@@ -21,7 +21,7 @@ public class PlayerDamageListener implements Listener {
                     }
                 }
                 switch (teamName) {
-                    case "bac_team_purple" -> {
+                    case "bac_team_dark_purple" -> {
                         if (event.getCause().equals(EntityDamageEvent.DamageCause.FALL)) {
                             event.setCancelled(true);
                         }

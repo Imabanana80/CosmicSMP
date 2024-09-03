@@ -41,7 +41,7 @@ public class PlayerJoinListener implements Listener {
                 }
                 p.getAttribute(Attribute.GENERIC_MOVEMENT_SPEED).setBaseValue(0.115);
             }
-            case "bac_team_purple" -> {
+            case "bac_team_dark_purple" -> {
                 if (dimension == World.Environment.THE_END) {
                     p.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(24.0D);
                 } else {

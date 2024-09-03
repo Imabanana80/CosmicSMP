@@ -39,7 +39,7 @@ public class PlayerRespawnListener implements Listener {
                     p.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(20.0D);
                 }
             }
-            case "bac_team_purple" -> {
+            case "bac_team_dark_purple" -> {
                 if (dimension == World.Environment.THE_END) {
                     p.getAttribute(Attribute.GENERIC_MAX_HEALTH).setBaseValue(24.0D);
                 } else {
