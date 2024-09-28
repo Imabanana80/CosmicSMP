@@ -53,7 +53,7 @@ public final class PlayerRespawnListener implements Listener {
             case null -> {
                 throw new IllegalArgumentException("Player " + player.getName() + " is not assigned to a team");
             }
-            default -> throw new IllegalStateException("Unexpected value: " + teamName);
+            default -> throw new IllegalStateException("Unexpected team: " + teamName);
         }
     }
 }
